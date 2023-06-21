@@ -7,6 +7,8 @@
 В наличии имеются данные с разметкой о токсичности комментариев:  
 - _Текст комментария_
 - _Отметка о токсичности_
+
+Источник: [Яндекс.Практикум](https://practicum.yandex.ru/data-scientist/)
 ### Используемые библиотеки:  
 *Pandas, NumPy, RE, NLTK, VADER, Scikit-learn, Optuna, LightGBM, Pandarallel*
 ### Сделано:
