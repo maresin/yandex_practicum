@@ -18,6 +18,8 @@
 - _Активность клиента_
 - _Предполагаемая зарплата_
 - _Факт ухода клиента_
+
+Источник: [Яндекс.Практикум](https://practicum.yandex.ru/data-scientist/)
 ### Используемые библиотеки:
 *Pandas, NumPy, String, Scikit-learn, Pandas Profiling, Plotly*
 ### Сделано:
