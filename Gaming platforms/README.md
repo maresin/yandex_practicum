@@ -20,7 +20,7 @@
 ### Используемые библиотеки:
 *Pandas, NumPy, SciPy, Matplotlib, Plotly*
 ### Сделано:
-![preprocessing](https://img.shields.io/badge/-preprocessing-D0F4F6?style=flat) ![analytics](https://img.shields.io/badge/-analytics-E2E0FB?style=flat) ![statistics](https://img.shields.io/badge/-statistics-C4EBB7?style=flat)  
+![preprocessing](https://img.shields.io/badge/-preprocessing-D0F4F6?style=flat) ![analytics](https://img.shields.io/badge/-analytics-E2E0FB?style=flat) ![statistics](https://img.shields.io/badge/-statistics-C4EBB7?style=flat) ![visualization](https://img.shields.io/badge/-visualization-FDC4C4?style=flat)  
 Проект представлял собой типично аналитический кейс и был реализован с помощью привычных инструментов аналитика. Было проведено первичное изучение данных и их предобработка: обработаны пропуски, данные проверены на дубликаты, для удаления аномалий написана специальная функция.  
 Был проведён тщательный исследовательский анализ данных. Изучена динамика изменения суммарных продаж для различных игровых платформ. Выделен актуальный период существования платформ и выбраны несколько потенциально прибыльных платформ. Выявлено влияние отзывов пользователей и критиков на объём продаж. Определены наиболее прибыльные жанры. Построено значительное количество графиков разных типов.  
 Составлен портрет типичного пользователя для различных регионов мира (NA, EU, JP): определены жанровые предпочтения, популярные платформы, возрастные категории.  
