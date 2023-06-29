@@ -14,8 +14,9 @@
 
 Источник: [Яндекс.Практикум](https://practicum.yandex.ru/data-scientist/)
 ### Используемые библиотеки:  
-*Pandas, Scikit-learn, Optuna, LightGBM, YData Profiling, Plotly, OS*
+*Pandas, Scikit-learn, Optuna, LightGBM, Plotly*
 ### Сделано:
+![preprocessing](https://img.shields.io/badge/-preprocessing-D0F4F6?style=flat) ![EDA](https://img.shields.io/badge/-EDA-F8FBAC?style=flat) ![feature engineering](https://img.shields.io/badge/-feature--engineering-C5D8F1?style=flat) ![ML](https://img.shields.io/badge/-ML-F19CBB?style=flat)   
 Первичный анализ признаков в датесетов был проведен с помощью профайлера _YData Profiling_, на основе сгенерированных им отчетов.  
 Для уточнения характера технологического процесса, на примере одной из партий была сделана диаграмма Ганта.  
 Основной частью предобработки данных стало формирование единого датасета и создание ряда новых признаков. Это потребовало написания достаточно сложного алгоритма отбора значений исходных признаков.  
