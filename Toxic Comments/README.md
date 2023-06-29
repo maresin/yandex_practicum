@@ -11,7 +11,7 @@
 ### Используемые библиотеки:  
 *Pandas, NumPy, NLTK, Scikit-learn, Optuna, LightGBM*
 ### Сделано:
-![feature engineering](https://img.shields.io/badge/-feature--engineering-C5D8F1?style=flat) ![NLP](https://img.shields.io/badge/-NLP-CEFDFB?style=flat) ![ML](https://img.shields.io/badge/-ML-F19CBB?style=flat)  
+![feature engineering](https://img.shields.io/badge/-feature--engineering-C5D8F1?style=flat) ![NLP](https://img.shields.io/badge/-NLP-CEFDFB?style=flat) ![ML](https://img.shields.io/badge/-ML-F19CBB?style=flat) ![pipeline](https://img.shields.io/badge/-pipeline-FEEFE1?style=flat) ![OOP](https://img.shields.io/badge/-OOP-FCF097?style=flat)  
 Для решения задачи был реализован механизм создания дополнительных предикторов на основе корпуса имеющихся текстов с использованием методов векторизации текстов _Bag-of-Words_ и _TF-IDF_. Перед непосредственно векторизацией тексты были разбиты на токены, из которых были получены леммы. Для данной обработки были использованы инструменты библиотеки _NLTK_. Из-за большого числа признаков был проведен отбор наиболее значимых из них с помощью `SelectKBest` библиотеки _Scikit-learn_. Для осуществления классифицирования над новым пространством признаков было использовано несколько моделей разных типов. Для подбора гиперпараметров модели была использована библиотека _Optuna_.  
 По итогам сравнения была выбрана модель на основе _LGBMClassifier_ показала достаточно хорошую точность распознавания токсичных комментариев (_F1-мера_ = 0.78).  
 Также была рассмотрена возможность внесения дополнительных признаков, сгенерированных с помощью предобученной модели _VADER_ из набора _NLTK_. Это было реализовано средствами ООП модуля _Scikit-learn_ - созданы несколько дочерних классов и сложных пайплайн на их основе.  
