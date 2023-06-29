@@ -25,7 +25,7 @@
 ### Используемые библиотеки:
 *Pandas, NumPy, Phik, Scikit-learn, Category Encoders, Optuna, LightGBM*
 ### Сделано:
-![preprocessing](https://img.shields.io/badge/-preprocessing-D0F4F6?style=flat) ![EDA](https://img.shields.io/badge/-EDA-F8FBAC?style=flat) ![feature engineering](https://img.shields.io/badge/-feature--engineering-C5D8F1?style=flat) ![ML](https://img.shields.io/badge/-ML-F19CBB?style=flat)  
+![preprocessing](https://img.shields.io/badge/-preprocessing-D0F4F6?style=flat) ![EDA](https://img.shields.io/badge/-EDA-F8FBAC?style=flat) ![feature engineering](https://img.shields.io/badge/-feature--engineering-C5D8F1?style=flat) ![ML](https://img.shields.io/badge/-ML-F19CBB?style=flat) ![pipeline](https://img.shields.io/badge/-pipeline-FEEFE1?style=flat)  
 При работе над проектом начальные данные подверглись значительной коррекции. В категориальных признаках обнаружены и заполнены многочисленные пропуски. Часть неинформативных признаков была удалена. Были созданы новые признаки, учитывающие некоторые временные параметры.  
 Чтобы избежать увеличения признакового пространства после _one-hot-кодирования_ категориальных признаков с большим количеством уникальных значений, были предложены рациональные альтернативы этому. Был использован кодировщик типа _Target-based Coding_ из библиотеки _Category Encoders_.  
 Были проверены несколько алгоритмов машинного обучния. Для подбора гиперпараметров использовалась библиотека оптимизации _Optuna_. Для оценки качества моделей написана функция записи необходимых характеристик.  
