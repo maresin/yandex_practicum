@@ -16,5 +16,6 @@
 Источник: [Яндекс.Практикум](https://practicum.yandex.ru/data-scientist/)
 ### Используемые библиотеки:
 *Pandas, NumPy, SciPy*
-### Сделано:
+### Сделано:  
+![preprocessing](https://img.shields.io/badge/-preprocessing-D0F4F6?style=flat) ![analytics](https://img.shields.io/badge/-analytics-E2E0FB?style=flat) ![statistics](https://img.shields.io/badge/-statistics-C4EBB7?style=flat)  
 Проведен предварительный анализ использования тарифов на выборке клиентов, проанализировано поведение клиентов при использовании услуг оператора и рекомендованы оптимальные наборы услуг для пользователей. Проведена предобработка данных, их анализ. Проверены гипотезы о различии выручки абонентов разных тарифов и различии выручки абонентов из Москвы и других регионов.
