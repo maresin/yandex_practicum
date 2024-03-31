@@ -19,3 +19,5 @@
 |[Токсичные комментарии](https://github.com/maresin/yandex_practicum/tree/main/Toxic%20Comments)|Определение токсичности комментариев для интернет-магазина|*Pandas, NumPy, NLTK, Scikit-learn, Optuna, LightGBM*|
 |[Определение возраста покупателей](https://github.com/maresin/yandex_practicum/tree/main/Age%20Determination)|Определение возраста покупателей в прикассовой зоне по фотографии для системы компьютерного зрения магазина|*Pandas, Keras, Matplotlib*|
 |[Оптимизация процесса выплавки стали](https://github.com/maresin/yandex_practicum/tree/main/Melt%20of%20Steel)|Построение модели предсказания температуры выплавки стали на различных технологических стадиях для оптимизации производственных расходов металлургического комбината|*Pandas, Scikit-learn, Optuna, LightGBM, Plotly*|
+
+Получен [диплом](https://github.com/maresin/yandex_practicum/blob/main/Diploma.pdf) о профессиональнйо переподготовке
